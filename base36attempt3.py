@@ -47,7 +47,7 @@ def b36_string(a):
         string += st_chars[item]
     return string
 
-# the debug function checks [3 * x ** 2 + 2 * x + 7 for x in range(12,1354,63)] for errant output
+# the debug function checks [whatever you want] for errant output
 
 def b36_debug():
     dbg_arr = [x for x in range(10000)]
