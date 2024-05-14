@@ -59,7 +59,7 @@ kasiski_table.extend([alpha[i]+"  "+cae(alpha,i) for i in range(26)])
 def kas(plaintext: str, key: str = "key") -> str:
 
     ciphertext = ""
-    keyi = 0    
+    keyi = 0
     for i in range(len(plaintext)):
 
         ## print("iteration", i)
@@ -76,3 +76,7 @@ def kas(plaintext: str, key: str = "key") -> str:
             ciphertext += char
 
     return ciphertext
+
+# For the convenience of those who use the misnomer.
+def vig(a, b):
+    return kas(a, b)
