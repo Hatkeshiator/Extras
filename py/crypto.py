@@ -128,7 +128,7 @@ def dec_kas(ciphertext: str, key: str = "varad") -> str:
 
      def generate_counterkey(key: str = key):
           ## return "".join([Alpha(-Alpha.find(c)) for c in key])
-          # efficient but difficult to read
+          # efficient but difficult-to-read "simplification" (in the math sense) of the below
           shift_vals = [Alpha.find(c) // 2 for c in key]
           unshift_vals = [-i for i in shift_vals]
           return "".join([Alpha[i * 2] for i in unshift_vals])
@@ -136,3 +136,7 @@ def dec_kas(ciphertext: str, key: str = "varad") -> str:
      counterkey = generate_counterkey()
      ## print(Alpha == kas(kas(Alpha, key),counterkey)
      return kas(ciphertext, counterkey)
+
+def dec_vig(a, b):
+     return dec_kas(a, b)
+
