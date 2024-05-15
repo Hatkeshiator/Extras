@@ -1,5 +1,5 @@
 # goitre: make a merge sort
-# marge simpson: you halve the list into two roughly equal sublists and keep doing that until each leaf is a 1-list
+# marge simpson: you halve the list into two roughly equal sublists and keep doing that until each thing is a 1-list
 # then you merge lists, knowing that each of the pairs of lists you're merging is itself sorted
 # so you use an algorithm that relies on that. Make a new list, and compare the first elements of each list. 
 # whichever is lower gets moved to the new list. Repeat until one of the lists is empty, then append the rest of the other list to
