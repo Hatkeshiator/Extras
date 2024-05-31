@@ -1,0 +1,2 @@
+# This folder just contains abandoned programs I first wrote to extend/abstract from assigned work. They're not really useful for anything, but I'm keeping them around for posterity.
+# I wouldn't recommend using these for instructional value, but the problem statements themselves, I'm convinced were well-come-up-with and I recommend trying to improve on my attempts.

@@ -1,7 +1,7 @@
 # goal: to sort elements using insertion sort.
 # insertion sort: take the first unsorted element and slide it backward through the sorted portion until it fits.
 
-from sort import sortedto # returns index of first unsorted element of an array e.g. stdto([1,5,4,2,3]) == 2
+from Extras.py.sorting.sort import sortedto # returns index of first unsorted element of an array e.g. stdto([1,5,4,2,3]) == 2
 
 listsize = int(input("How many numbers in your list? "))
 

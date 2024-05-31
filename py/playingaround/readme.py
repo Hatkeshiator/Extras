@@ -1,0 +1,3 @@
+# Programs I make because I got nerdsniped (xkcd.com/356) and then either abandon because I realize I'm not smart enough to solve them, or keep them around and change some variable names every once in a while to pretend I made "progress".
+# Nah JK these are all actively maintained and worked on. I just don't work regularly enough to warrant saying that.
+# Problem statements are high quality and I hope functionstuff.py might one day be a household name among undergrads who don't like calculus. (If I ever make it good enough.)

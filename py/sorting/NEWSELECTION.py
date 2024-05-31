@@ -4,7 +4,7 @@
 # input: n numbers
 listsize = int(input("How many numbers in your list? "))
 
-from sort import minimum
+from Extras.py.sorting.sort import minimum
 # min returns index of lowest value in the function
 
 def selection(mylist):

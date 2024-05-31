@@ -5,7 +5,7 @@
 # whichever is lower gets moved to the new list. Repeat until one of the lists is empty, then append the rest of the other list to
 # the new list.
 
-from sort import issorted
+from Extras.py.sorting.sort import issorted
 
 def mergelists(list1, list2):
 

@@ -1,0 +1,1 @@
+# These programs are bad at their jobs, got too convoluted, or some such travesty and I abandoned them. Don't look too close at them, please!

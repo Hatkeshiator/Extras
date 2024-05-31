@@ -2,7 +2,7 @@
 # bubble sort: you go through the list checking all adjacent pairs of elements and if one is out of sort then you swap them.
 #     keep redoing it until the list is sorted.
 
-from sort import issorted
+from Extras.py.sorting.sort import issorted
 
 listsize = int(input("How many numbers in your list? "))
 

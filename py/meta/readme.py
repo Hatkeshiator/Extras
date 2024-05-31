@@ -1,0 +1,1 @@
+# There programs relate to performing operations on python files in a directory. They're useful for students who (correctly) detest having to write (or even copy/paste!) code in *scoff* microsoft word.
