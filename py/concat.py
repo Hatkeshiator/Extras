@@ -15,7 +15,7 @@ def sort_numeric(filenames):
 
 def concatenate_py_files(directory, output_file):
   """
-  Concatenates all .py files in a directory to a single output file, 
+  Concatenates all .py files in a directory to a single output file,
   ordered by the number in the filename.
   """
   filenames = [f for f in os.listdir(directory) if f.endswith('.py')]

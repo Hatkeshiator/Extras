@@ -52,7 +52,7 @@ def MatrixTranspose(matrix):
 
 # define the MatrixAdjoint function
 def MatrixAdjoint(matrix):
-    return MatrixTranspose(MatrixCofactor(matrix)) 
+    return MatrixTranspose(MatrixCofactor(matrix))
 
 # define the MatrixInverse function
 def MatrixInverse(matrix):
@@ -81,7 +81,7 @@ for i in range(n):
     inputmatrix.append([])
     for j in range(n):
         inputmatrix[i].append(int(input("Enter number: ")))
-    
+
 print("The input is: ")
 ReadMatrix(inputmatrix)
 

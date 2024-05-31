@@ -82,7 +82,7 @@ if format[1] == 'y':
         print(f"{derivativeorders[i]}th order derivative is: {derivatives[i]}")
     for i in range(len(antiderivatives)):
         print(f"{antiderivativeorders[i]}th order antiderivative is: {antiderivatives[i]}")
-    if isboundedintegral: 
+    if isboundedintegral:
         print(f"bounded integral is {sp.latex(boundedintegral)} with bounds {lowerbound} and {upperbound}")
     printed = True
 

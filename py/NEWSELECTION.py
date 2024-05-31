@@ -11,7 +11,7 @@ def selection(mylist):
 
     for i in range(listsize):
         sublist = mylist[i:]
-        minindex = minimum(sublist) + i 
+        minindex = minimum(sublist) + i
         # +i accounts for the fact that minimum is returning an index relative to i, where if i is the smallest element, it'll return 0
         mylist[i], mylist[minindex] = mylist[minindex], mylist[i]
 

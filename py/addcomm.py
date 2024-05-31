@@ -1,4 +1,6 @@
-# Add an arbitrary comment to the end of all .py files in a folder
+# I need to add the same comment to the end of all .py files in a folder, but I have a million of them!
+# I don't type that fast!
+# This script adds an arbitrary comment to the end of all .py files in a folder.
 
 import os
 

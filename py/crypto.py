@@ -139,4 +139,3 @@ def dec_kas(ciphertext: str, key: str = "varad") -> str:
 
 def dec_vig(a, b):
      return dec_kas(a, b)
-

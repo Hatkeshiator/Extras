@@ -83,6 +83,6 @@ def b64_dbg(a):
     return a == b64_decode(b64_string(a))
 
 def b64_printstuff(a):
-    print(a,b64_string(a),b64_decode(b64_string(a)),b64_debug(a))
+    print(a,b64_string(a),b64_decode(b64_string(a)),b64_dbg(a))
 
 # TODO: b64_string(2664879) is misbehaving

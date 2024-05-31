@@ -2,7 +2,7 @@
 # COMMENTS IN UPPERCASE ARE PERSONAL NOTES
 
 # THIS IS CALLED A DICTIONARY I THINK
-
+# NO IT IS NOT, IT IS A LIST
 sf_digits = [x for x in range(64)]
 sf_chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/"
 
@@ -54,4 +54,3 @@ def basesf_from(string):
     if negative and isinstance(result, int):
         result = -result
     return result
-

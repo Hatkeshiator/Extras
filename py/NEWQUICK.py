@@ -13,13 +13,13 @@ def quicksort(alist):
         left = []
 
         for i in range(len(mylist)):
-        
+
             if mylist[i] >= pivot:
                 right.append(mylist[i])
             else:
                 left.append(mylist[i])
         mylist = quicksort(left) + [pivot] + quicksort(right)
-    
+
     except:
         if len(alist) <= 1:
             mylist = alist

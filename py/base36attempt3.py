@@ -21,7 +21,7 @@ def b36_check(a):
 
 def b36_core(a):
     i = b36_check(a) - 1
-    
+
     # b36_div(a, i) == leftmost digit of b36(a)
 
     digit = b36_div(a, i)

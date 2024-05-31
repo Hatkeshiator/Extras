@@ -9,13 +9,13 @@ def insertion(mylist):
 
     while sortedto(mylist) != listsize:
         start = sortedto(mylist)
-        
+
         for i in range(start, 1, -1): # iterate backward from first unsorted element
             if mylist[i-1] > mylist[i]:
                 mylist[i], mylist[i-1] = mylist[i-1], mylist[i]
             else:
                 break
-        
+
         if start == 1:
             mylist[0], mylist[1] = mylist[1], mylist[0]
 

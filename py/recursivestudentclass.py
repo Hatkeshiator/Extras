@@ -6,7 +6,7 @@ class Student:
         self.roll = roll
         self.gender = gender
         self.indent = indent
-    
+
     def print(self) -> str:
         name = self.name
         age = self.age
